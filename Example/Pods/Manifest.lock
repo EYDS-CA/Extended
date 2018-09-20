@@ -1,0 +1,16 @@
+PODS:
+  - Extended (0.1.0)
+
+DEPENDENCIES:
+  - Extended (from `../`)
+
+EXTERNAL SOURCES:
+  Extended:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Extended: 5db979a5eb35bd3a1d5eb780aa1e4de7e44d23ed
+
+PODFILE CHECKSUM: 91b3cc60629c83f92b6434d4b90642df2c1bf0ba
+
+COCOAPODS: 1.5.3
