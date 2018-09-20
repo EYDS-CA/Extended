@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Extended_Example' do
+  pod 'Extended', :path => '../'
+
+  target 'Extended_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
