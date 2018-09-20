@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29F1C89821531ED900537D74 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1C89721531ED900537D74 /* UILabel.swift */; };
+		29F1C89A21531F3E00537D74 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1C89921531F3E00537D74 /* Int.swift */; };
 		4ED5AAF7EFBAFC43794A5AEC16942D03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4EDF498A55E652907A44A7787B67501A /* Extended-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 033D6425DEEB67DA54979231E9083462 /* Extended-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53377446A2F2B9B84F0122FB0B028269 /* Pods-Extended_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B02F6ABF6775F1BB83AE2489DAB8995 /* Pods-Extended_Example-dummy.m */; };
@@ -49,6 +50,7 @@
 		1F1A92D29F979CB021611E9D153C959B /* Pods-Extended_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Extended_Tests-resources.sh"; sourceTree = "<group>"; };
 		25E4BC1E25682C22DCA580D5B961BC31 /* Pods-Extended_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extended_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		29F1C89721531ED900537D74 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Extended/Classes/UILabel.swift; sourceTree = "<group>"; };
+		29F1C89921531F3E00537D74 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		33FABBDAA6BFC091A4E66D3092E1A438 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F4999239C7D19953919786DE914854C /* Extended.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Extended.modulemap; sourceTree = "<group>"; };
 		4828C3693C6FB81A2ECEC31C6DFC2805 /* Pods-Extended_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Extended_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				5BA921DC79AD18BEA76282E3F1F5694F /* Pod */,
 				A2034876F624598B602C65A9EABC5DC7 /* Support Files */,
 				29F1C89721531ED900537D74 /* UILabel.swift */,
+				29F1C89921531F3E00537D74 /* Int.swift */,
 			);
 			name = Extended;
 			path = ../..;
@@ -363,6 +366,7 @@
 				29F1C89821531ED900537D74 /* UILabel.swift in Sources */,
 				F09D432DE0B3D7918F41E1B7FA5CFA8D /* Color.swift in Sources */,
 				5CBE2A4F54A511A1F9CC4D22BFF54B66 /* Date.swift in Sources */,
+				29F1C89A21531F3E00537D74 /* Int.swift in Sources */,
 				B614C0FC690A3CB5A9F9045CB4DC99F8 /* Extended-dummy.m in Sources */,
 				AFFFDACFE74C14BDA0949E81AF73BAC8 /* String.swift in Sources */,
 			);
