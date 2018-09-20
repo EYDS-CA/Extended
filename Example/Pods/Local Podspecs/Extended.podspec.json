@@ -1,8 +1,8 @@
 {
   "name": "Extended",
   "version": "0.1.0",
-  "summary": "Extended contains a set of useful Swift extentions",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A set of useful Swift extentions",
+  "description": "Extended contains a set of useful Swift extentions",
   "homepage": "https://github.com/FreshworksStudio/Extended",
   "license": {
     "type": "MIT",
