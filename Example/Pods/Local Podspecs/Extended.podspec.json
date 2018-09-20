@@ -1,9 +1,9 @@
 {
   "name": "Extended",
   "version": "0.1.0",
-  "summary": "A short description of Extended.",
+  "summary": "Extended contains a set of useful Swift extentions",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/amirshayegh/Extended",
+  "homepage": "https://github.com/FreshworksStudio/Extended",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "amirshayegh": "shayegh@me.com"
   },
   "source": {
-    "git": "https://github.com/amirshayegh/Extended.git",
+    "git": "https://github.com/FreshworksStudio/Extended.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "Extended/Classes/**/*"
+  "source_files": "Extended/Classes/**/*.{swift}"
 }
