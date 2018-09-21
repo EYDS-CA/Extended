@@ -16,7 +16,7 @@ extension UILabel {
         if let labelText = text, labelText.count > 0 {
             let attributedString = NSMutableAttributedString(string: labelText)
             let textRange = NSRange(location: 0, length: attributedString.length)
-            attributedString.addAttribute(NSAttributedStringKey.kern, value: kernValue, range: textRange)
+            attributedString.addAttribute(NSAttributedString.Key.kern, value: kernValue, range: textRange)
             self.attributedText = attributedString
             self.sizeToFit()
         }

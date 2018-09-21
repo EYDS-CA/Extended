@@ -28,7 +28,7 @@ extension MKMapView {
 
     // move map center to specified location
     public func focusOn(location: CLLocation, radius: Double) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,radius * 2.0, radius * 2.0)
+        let coordinateRegion = MKCoordinateRegion.init(center: location.coordinate,latitudinalMeters: radius * 2.0, longitudinalMeters: radius * 2.0)
         self.setRegion(coordinateRegion, animated: true)
     }
 }
