@@ -23,8 +23,8 @@ extension UIView {
     }
 
     // Load a nib
-    public class func fromNib<T: UIView>() -> T {
-        return Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil)![0] as! T
+    public class func fromNib<T: UIView>(bundle: Bundle? = Bundle.main) -> T {
+        return bundle!.loadNibNamed(String(describing: T.self), owner: nil, options: nil)![0] as! T
     }
 
     func roundCorners(corners:UIRectCorner, radius: CGFloat) {
