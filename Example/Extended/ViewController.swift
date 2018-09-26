@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Extended
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let c1 = UIColor(hex: "FFFFF")
+        var string1 = "HelloWorld"
+        string1 = string1.convertFromCamelCase()
+        print(string1)
     }
 
     override func didReceiveMemoryWarning() {
