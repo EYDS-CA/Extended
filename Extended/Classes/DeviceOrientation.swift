@@ -8,7 +8,7 @@
 import Foundation
 
 extension UIDeviceOrientation {
-    func getUIImageOrientationFromDevice() -> UIImage.Orientation {
+    public func getUIImageOrientationFromDevice() -> UIImage.Orientation {
         // return CGImagePropertyOrientation based on Device Orientation
         // This extented function has been determined based on experimentation with how an UIImage gets displayed.
         switch self {
