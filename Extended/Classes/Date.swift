@@ -70,6 +70,12 @@ extension Date {
         return dateFormatter.string(from: self)
     }
 
+    public func stringWithTime() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MMMM dd, yyyy - HH:mm"
+        return dateFormatter.string(from: self)
+    }
+
     public func stringShort() -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MMM dd yyyy"
