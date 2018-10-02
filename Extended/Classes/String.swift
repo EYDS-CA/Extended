@@ -71,7 +71,7 @@ extension String {
         }
     }
 
-    var fromHTML: String {
+    public var fromHTML: String {
         return htmlToAttributedString?.string ?? ""
     }
 }
