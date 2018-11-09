@@ -9,7 +9,7 @@ import Foundation
 
 extension Collection {
     /// Safely retrieve the element at `index`
-    func at(_ index: Index) -> Element? {
+    public func at(_ index: Index) -> Element? {
         return indices.contains(index) ? self[index] : nil
     }
 }

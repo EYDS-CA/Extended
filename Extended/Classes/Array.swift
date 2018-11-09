@@ -9,7 +9,7 @@ import Foundation
 
 extension Array {
     /// Safely retrive the element in the middle of the array
-    func middleElement(roundedUp: Bool) -> Element? {
+    public func middleElement(roundedUp: Bool) -> Element? {
         let middleIndex: Int
         if count % 2 == 0 {
             middleIndex = (count / 2) - (roundedUp ? 0 : 1)
@@ -20,7 +20,7 @@ extension Array {
     }
     
     /// Retrieve `numSamples` of evenly distributed samples from the array.
-    func sample(_ numSamples: Int) -> Array<Element> {
+    public func sample(_ numSamples: Int) -> Array<Element> {
         guard numSamples < count else { return self }
         guard numSamples > 0 else { return [] }
         let increment = Float(count) / Float(numSamples)

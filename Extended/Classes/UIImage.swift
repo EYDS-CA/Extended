@@ -36,7 +36,7 @@ extension UIImage {
     }
     
     /// Get average color of image in `rect` (defined in the image's space, with (0,0) in the bottom left)
-    func getAverageColor(inRect rect: CGRect? = nil) -> UIColor {
+    public func getAverageColor(inRect rect: CGRect? = nil) -> UIColor {
         let image = ciImage ?? CIImage(cgImage: cgImage!)
         let extent = rect ?? image.extent
         let inputExtent = CIVector(x: extent.origin.x, y: extent.origin.y, z: extent.size.width, w: extent.size.height)
