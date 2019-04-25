@@ -98,4 +98,25 @@ extension Date {
         
         return cal.date(from: components)
     }
+    
+    /// Returns true if self is before the given date, false otherwise.
+    func before(_ date: Date) -> Bool {
+        return self < date
+    }
+    
+    /// Returns true if self is before or equal the given date, false otherwise.
+    func onOrBefore(_ date: Date) -> Bool {
+        return self <= date
+    }
+    
+    /// Returns true if self is after the given date, false otherwise.
+    func after(_ date: Date) -> Bool {
+        return self > date
+    }
+    
+    /// Returns true if self is after or equal to the given date, false otherwise.
+    func onOrAfter(_ date: Date) -> Bool {
+        return self >= date
+    }
+    
 }
