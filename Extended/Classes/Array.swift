@@ -30,4 +30,15 @@ extension Array {
         }
         return array
     }
+    
+    
+    /// Retrieves the element at the given index or nil if the index is invalid
+    func getOrNil(_ index: Int) -> Element? {
+        if 0 ..< self.count ~= index {
+            return self[index]
+        } else {
+            return nil
+        }
+    }
+    
 }
